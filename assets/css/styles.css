@@ -28,6 +28,8 @@ h1 {
     letter-spacing: 1px;
 }
 
+/* Three Column */
+
 .three-col {
     /* background: whitesmoke;
     background-size: cover;
@@ -48,11 +50,11 @@ h1 {
 
 .three-col-wrapper {
     display: flex;
-    width: 1200px;
+    /* width: 1200px; */
 }
 
 .three-col-item {
-    width: 400px;
+    max-width: 400px;
     overflow: hidden;
     height: fit-content;
     font-size: 12px;
@@ -81,4 +83,10 @@ h1 {
     align-items: center;
     /* text-align: center; */
     color: darkgray;
+}
+
+/* Expertise */
+
+.expertise {
+    height: 500px;
 }

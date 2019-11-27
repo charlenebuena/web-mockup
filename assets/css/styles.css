@@ -1,0 +1,84 @@
+* {
+    font-family: roboto, sans-serif, 'Material Icons' !important;
+    font-style: normal;
+    font-weight: 200;
+}
+
+.header-img {
+    background: url('../images/telephone.jpeg') no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-position: left;
+    display: grid;
+}
+
+.header-img-title {
+    text-align: center;
+    display: grid;
+    align-content: center;
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.subtxt {
+    margin-top: -20px;
+    letter-spacing: 1px;
+}
+
+.three-col {
+    /* background: whitesmoke;
+    background-size: cover;
+    height: 300px;
+    background-position: left;
+    display: grid;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; */
+
+
+    background: whitesmoke;
+    height: 300px;
+    display: grid;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.three-col-wrapper {
+    display: flex;
+    width: 1200px;
+}
+
+.three-col-item {
+    width: 400px;
+    overflow: hidden;
+    height: fit-content;
+    font-size: 12px;
+    display: flex;
+    word-break: break-word;
+}
+
+.three-col-item img {
+    width: 50px;
+    height: 50px;
+}
+
+.three-col-item-txt {
+    padding: 0 30px;
+}
+
+.img-title {
+    margin-bottom: 10px;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+.img-text {
+    display: grid;
+    /* padding: 0 30px; */
+    align-items: center;
+    /* text-align: center; */
+    color: darkgray;
+}

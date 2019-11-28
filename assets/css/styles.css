@@ -1,14 +1,20 @@
-* {
+/* 
+
+BREAKPOINT: 993px
+
+*/
+
+/* * {
     font-family: roboto, sans-serif, 'Material Icons' !important;
     font-style: normal;
     font-weight: 200;
-}
+} */
 
 .header-img {
-    background: url('../images/telephone.jpeg') no-repeat;
+    background: url('../images/header.jpg') no-repeat;
     background-size: cover;
     height: 500px;
-    background-position: left;
+    background-position: top;
     display: grid;
 }
 
@@ -21,6 +27,10 @@
 h1 {
     margin: 0px;
     padding: 0px;
+}
+
+h3 {
+    margin: 0 0 20px 0 !important;
 }
 
 .subtxt {
@@ -42,7 +52,7 @@ h1 {
 
 
     background: whitesmoke;
-    height: 300px;
+    padding: 100px 0;
     display: grid;
     justify-content: space-evenly;
     align-items: center;
@@ -50,7 +60,7 @@ h1 {
 
 .three-col-wrapper {
     display: flex;
-    /* width: 1200px; */
+    max-width: 1200px;
 }
 
 .three-col-item {
@@ -70,6 +80,10 @@ h1 {
 .three-col-item-txt {
     padding: 0 30px;
 }
+/* 
+.three-col-item-txt:last-child {
+    padding: 0 0 0 30px;
+} */
 
 .img-title {
     margin-bottom: 10px;
@@ -88,5 +102,127 @@ h1 {
 /* Expertise */
 
 .expertise {
-    height: 500px;
+    padding: 100px 0;
+    display: grid;
+}
+
+.expertise-wrapper {
+    max-width: 1200px;
+    align-self: center;
+    margin: 0 auto;
+}
+
+.yellow-line {
+    width: 50px;
+    height: 4px;
+    background: orange;
+}
+
+.percentage-texts {
+    display: flex;
+    margin-top: 5%;
+    font-size: 12px;
+}
+
+.percentage {
+    width: 100%;
+}
+
+.percentage span {
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin: -10px 0 0 0;
+}
+
+.percent-label {
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress {
+    height: 2px !important;
+}
+
+.text-percent {
+    padding: 0 0 0 30px;
+    line-height: 1.8;
+}
+
+/* Let's Make Magic */
+
+.magic {
+    /* padding: 100px 0; */
+    background: whitesmoke;
+    display: grid;
+}
+
+.two-column {
+    display: grid;
+}
+
+.tc-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.two-col-img {
+    background: url('../images/banana.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.empty-half {
+    width: 100%;
+    /* padding: 150px; */
+    min-height: 600px;
+}
+
+.two-col-text {
+    /* padding: 150px;
+    width: 100%;
+    height: fit-content;
+    min-height: 600px;
+    display: grid; */
+
+    display: inline-flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    align-self: center;
+    max-width: 1200px;
+}
+
+.left-empty {
+    width: 100%;
+}
+
+.two-col-text-flex {
+    /* display: flex; */
+}
+
+.two-col-text-content {
+    display: grid;
+    max-width: 1200px;
+    /* padding: 100px 0; */
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.two-col-text-wrapper {
+    /* align-self: center;
+    width: 100%; */
+
+    align-self: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+.two-col-text-title {
+    align-self: end;
+    display: grid;
+}
+
+.two-col-text-title .yellow-line {
+    margin: 60px 0 50px 0;
 }
